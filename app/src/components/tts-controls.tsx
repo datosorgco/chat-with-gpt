@@ -7,7 +7,7 @@ import { APP_NAME } from '../values';
 import { useHotkeys } from '@mantine/hooks';
 
 const Container = styled.div`
-    background: #292933;
+    background: #000;
     border-top: thin solid #393933;
     padding: 1rem;
     // padding-bottom: 0.6rem;

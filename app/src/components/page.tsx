@@ -19,8 +19,8 @@ const Container = styled.div`
     flex-direction: row;
     overflow: hidden;
 
-    background: #292933;
-    color: white;
+    background: #000;
+    color: black;
 
     .sidebar {
         width: 0%;

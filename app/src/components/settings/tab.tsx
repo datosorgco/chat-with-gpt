@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
 const Settings = styled.div`
     font-family: "Work Sans", sans-serif;
-    color: white;
+    color: black;
 
     section {
         margin-bottom: .618rem;
@@ -37,7 +37,7 @@ const Settings = styled.div`
         }
 
         a {
-            color: white;
+            color: black;
             text-decoration : underline;
         }
 
@@ -79,7 +79,7 @@ const OptionWrapper = styled.div`
 
     * {
         font-family: "Work Sans", sans-serif;
-        color: white;
+        color: black;
         font-size: 1rem;
     }
 `;

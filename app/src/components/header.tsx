@@ -17,7 +17,7 @@ import { useHotkeys } from '@mantine/hooks';
 
 const Banner = styled.div`
     background: rgba(224, 49, 49, 0.2);
-    color: white;
+    color: black;
     text-align: center;
     font-family: "Work Sans", sans-serif;
     font-size: 80%;
@@ -111,7 +111,7 @@ const SubHeaderContainer = styled.div`
     }
 
     a {
-        color: white;
+        color: black;
     }
 
     .fa + span {

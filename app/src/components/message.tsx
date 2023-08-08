@@ -25,7 +25,7 @@ const Container = styled.div`
     }
 
     &.by-assistant {
-        background: #292933;
+        background: #000;
     }
 
     &.by-assistant + &.by-assistant, &.by-user + &.by-user {
@@ -53,7 +53,7 @@ const Container = styled.div`
         max-width: 100%;
 
         * {
-            color: white;
+            color: black;
         }
 
         p, ol, ul, li, h1, h2, h3, h4, h5, h6, img, blockquote, &>pre {

@@ -45,7 +45,7 @@ const ChatListItemLink = styled(Link)`
         font-size: 1rem;
         line-height: 1.6;
         padding-right: 1rem;
-        color: white;
+        color: black;
     }
 
     p {
