@@ -11,4 +11,4 @@ git pull
 docker build -t openchat .
 
 # Ejecutar nuevo contenedor 
-docker run -v $(pwd)/data:/app/data -p 8081:3000 openchat:latest
+docker run -v $(pwd)/data:/app/data -dp 8081:3000 openchat:latest > log.txt
