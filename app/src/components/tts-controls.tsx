@@ -8,7 +8,7 @@ import { useHotkeys } from '@mantine/hooks';
 
 const Container = styled.div`
     background: #fafafa;
-    border-top: thin solid #393933;
+    border-top: thin solid #fcfcfc;
     padding: 1rem;
     // padding-bottom: 0.6rem;
 

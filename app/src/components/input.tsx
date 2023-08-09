@@ -15,7 +15,7 @@ import { useOption } from '../core/options/use-option';
 
 const Container = styled.div`
     background: #fafafa;
-    border-top: thin solid #393933;
+    border-top: thin solid #fcfcfc;
     padding: 1rem 1rem 0 1rem;
 
     .inner {

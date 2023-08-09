@@ -25,7 +25,7 @@ const Container = styled.div`
     .sidebar {
         width: 0%;
         height: 100%;
-        background: #303038;
+        background: white;
         flex-shrink: 0;
 
         @media (min-width: 40em) {
