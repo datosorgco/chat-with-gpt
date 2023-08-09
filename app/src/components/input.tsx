@@ -14,7 +14,7 @@ import QuickSettings from './quick-settings';
 import { useOption } from '../core/options/use-option';
 
 const Container = styled.div`
-    background: #000;
+    background: #fafafa;
     border-top: thin solid #393933;
     padding: 1rem 1rem 0 1rem;
 

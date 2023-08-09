@@ -19,7 +19,7 @@ const Container = styled.div`
     flex-direction: row;
     overflow: hidden;
 
-    background: #000;
+    background: #fafafa;
     color: black;
 
     .sidebar {

@@ -25,7 +25,7 @@ const Container = styled.div`
     }
 
     &.by-assistant {
-        background: #000;
+        background: #fafafa;
     }
 
     &.by-assistant + &.by-assistant, &.by-user + &.by-user {
