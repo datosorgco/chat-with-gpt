@@ -4,6 +4,9 @@
 CONTAINER_ID=$(docker ps | grep openchat | awk '{print $1}')
 docker stop $CONTAINER_ID
 
+#remove the previous container
+docker rm $CONTAINER_ID
+
 # Actualizar el código fuente
 git pull
 
