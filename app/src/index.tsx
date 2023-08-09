@@ -72,7 +72,7 @@ async function bootstrapApplication() {
     root.render(
         <React.StrictMode>
             <IntlProvider locale={navigator.language} defaultLocale="en-GB" messages={messages}>
-                <MantineProvider theme={{ colorScheme: "dark" }}>
+                <MantineProvider theme={{ colorScheme: "light" }}>
                     <Provider store={store}>
                         <PersistGate loading={null} persistor={persistor}>
                             <ModalsProvider>
