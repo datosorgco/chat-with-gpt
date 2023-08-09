@@ -21,7 +21,7 @@ const SROnly = styled.span`
 
 const Container = styled.div`
     &.by-user {
-        background: #22232b;
+        background: #FBFBFB;
     }
 
     &.by-assistant {
@@ -29,7 +29,7 @@ const Container = styled.div`
     }
 
     &.by-assistant + &.by-assistant, &.by-user + &.by-user {
-        border-top: 0.2rem dotted rgba(0, 0, 0, 0.1);
+        border-top: 0.1rem dotted rgba(0, 0, 0, 0.1);
     }
 
     &.by-assistant {
